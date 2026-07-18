@@ -1,0 +1,121 @@
+body {
+    font-family: "Schoolbell", cursive;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    background-color: #d2cec5;
+    color: #111;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* LOGO */
+#logo {
+    width: 80px;
+    height: auto;
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #6097be;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* NAV HOVER EFFECT */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px;
+}
+
+/* LIST STYLE */
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    background-color: #D6a682;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* LINKS INSIDE MAIN */
+main a {
+    color: #7e563f;
+    font-weight: bold;
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #6097be;
+    color: white;
+}
+
+/* FORM */
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #6097be;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4d7c9d;
+}
+
+/* FOOTER */
+footer {
+    background-color: #6097be;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
